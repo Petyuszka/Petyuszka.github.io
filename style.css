@@ -1,0 +1,181 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.button {
+  color: #222;
+	cursor: pointer;
+  margin: 0 20px;
+  text-decoration: none;
+  padding-top: 18px;
+}
+
+.button:hover {
+  color: red;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.button:active {
+  color: red;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+header {
+  height: 100px;
+  background-color: #C2B280;
+  font-family: 'Palette Mosaic', cursive;
+  font-size: 180%;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 900px;
+  z-index: 1;
+}
+
+.oszlop {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 100px;
+  z-index: 2;
+  scroll-padding-top: 100px;
+}
+
+.bal {
+  width: 368px;
+}
+
+.jobb {
+  width: 532px;
+}
+
+.nev {
+  height: 488px;
+  background-image: url("https://i.ibb.co/DY4XB0m/as1.png");
+  background-size: 368px;
+  padding-top: 0;
+  font-family: 'Style Script', cursive;
+  color: #222;
+}
+
+.nev h2 {
+  padding-top: 235px;
+  padding-left: 70px;
+  margin: 0;
+  font-size: 230%;
+  font-weight: normal;
+}
+
+.nev h1 {
+  padding-top: 6px;
+  padding-left: 73px;
+  margin: 0;
+  font-size: 550%;
+  line-height: 90%;
+  font-weight: normal;
+}
+
+.szoveg {
+  color: #222;
+  padding-left: 25px;
+}
+
+.szoveg p, li {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 110%;
+  line-height: 170%;
+}
+
+#sz1 {
+  margin-bottom: 270px;
+}
+
+#sz2 {
+  margin-bottom: 100px;
+}
+
+#sz3 {
+  margin-bottom: 100px;
+}
+
+#id1 {
+  margin-bottom: 320px;
+}
+
+#id2 {
+  margin-bottom: 280px;
+}
+
+.idezet {
+  background-color: #C2B280;
+  font-family: 'Style Script', cursive;
+  line-height: 120%;
+  color: #222;
+  margin-top: 80px;
+  font-size: 390%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.idezet blockquote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote::before {
+  content: '“';
+  position: absolute;
+  top: 0;
+  left: 4px;
+  font-size: 300%;
+  line-height: 99%;
+}
+
+.szoveg h3 {
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 150%;
+  letter-spacing: 1px;
+}
+
+.szoveg h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 140%;
+  line-height: 140%;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.szoveg h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 81%;
+  line-height: 160%;
+}
+
+.szoveg h6 {
+  font-family: 'Style Script', cursive;
+  font-size: 130%;
+  font-weight: 100;
+  line-height: 80%;
+  margin-top: 0;
+  margin-bottom: 25px;
+  white-space: nowrap;
+}
+
+.lista {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  line-height: 160%;
+}
+
+.target::before {
+  content:"";
+  display:block;
+  height: 120px;
+  margin: -120px 0 0;
+}
